@@ -20,7 +20,7 @@
 		"classmap" : [
 		],
 		"psr-4" : {
-			"Odenktools\\Stoplite\\" : "src/Stoplite/"
+			"Odenktools\\Kampus\\" : "src/Kampus/"
 		}
 	},
 	"config" : {
