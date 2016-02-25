@@ -1,0 +1,30 @@
+{
+	"name" : "odenktools/kampus",
+	"description" : "",
+	"license" : "MIT",
+	"type" : "library",
+	"homepage" : "https://github.com/odenktools/kampus-repopattern",
+	"authors" : [{
+			"name" : "Odenktools",
+			"email" : "odenktools86@gmail.com",
+			"homepage" : "http://odenktools.com",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : ">=5.5.9",
+		"illuminate/contracts" : "~5.1",
+		"illuminate/support" : "5.1.*"
+	},
+	"autoload" : {
+		"classmap" : [
+		],
+		"psr-4" : {
+			"Odenktools\\Stoplite\\" : "src/Stoplite/"
+		}
+	},
+	"config" : {
+		"preferred-install" : "dist"
+	},
+	"minimum-stability" : "stable"
+}
