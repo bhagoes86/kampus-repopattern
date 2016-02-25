@@ -41,6 +41,9 @@ Jalankan command prompt
 #References
 
 [Laravel Official Facades](https://laravel.com/docs/5.1/facades)
+
 [Laravel Official Service Providers](https://laravel.com/docs/5.1/providers)
+
 [Laravel Official Contracts](https://laravel.com/docs/5.1/contracts)
+
 [Laravel Official Seed](https://laravel.com/docs/5.1/seeding)
