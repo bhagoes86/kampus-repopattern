@@ -13,6 +13,9 @@ use Odenktools\Kampus\Models\Mahasiswa;
 /**
  * Class EloquentMahasiwaRepository
  *
+ * Ini Class Encapsulasi agar model dapat dipanggil dari luar package
+ * Note : Tambahkan fungsi disini...
+ *
  * @package Odenktools\Kampus\Repositories\Eloquent
  */
 class EloquentMahasiwaRepository extends AbstractEloquentRepository implements MahasiswaRepository
@@ -37,7 +40,18 @@ class EloquentMahasiwaRepository extends AbstractEloquentRepository implements M
      */
     public function create($data)
     {
-        throw new \InvalidArgumentException('not implement.');
+        return $this->model->create($data);
     }
 
+	/**
+	 * [Hanya Sebuah Fungsi Tambahan]
+	 *
+	 * <code>
+	 * echo json_encode(\Kampus::getMahasiswaModel()->mhsFindById(1));
+	 * </code>
+	 */
+    public function mhsFindById($data)
+    {
+        return $this->model->findById($data);
+    }
 }

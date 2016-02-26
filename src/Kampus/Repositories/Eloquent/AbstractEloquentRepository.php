@@ -11,11 +11,8 @@ use Illuminate\Database\Eloquent\Model;
 use Odenktools\Kampus\Contracts\Repositories\BaseRepoInterface;
 
 /**
- * Ini Class Encapsulasi agar model dapat dipanggil dari luar package
- *
- * Tambahkan fungsi disini...
- *
  * Class AbstractEloquentRepository
+ *
  * @package Odenktools\Kampus\Repositories\Eloquent
  */
 abstract class AbstractEloquentRepository implements BaseRepoInterface

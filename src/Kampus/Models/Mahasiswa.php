@@ -41,5 +41,9 @@ class Mahasiswa extends Model
     {
         throw new \InvalidArgumentException('not implement.');
     }
-
+	
+	 public function findById($data)
+	 {
+		 return Mahasiswa::find($data);
+	 }
 }
