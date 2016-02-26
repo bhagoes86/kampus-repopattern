@@ -32,7 +32,7 @@ class KampusInit extends Migration
 			$table->increments('nim');
 			$table->string('nama', 50)->index();
 			$table->string('kelas', 50);
-			$table->string('email', 50)->unique()
+			$table->string('email', 50)->unique();
 			$table->tinyInteger('aktif')->default(0);
 			$table->timestamps();
 			$table->softDeletes();

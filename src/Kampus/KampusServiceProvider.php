@@ -82,16 +82,6 @@ class KampusServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the hasher used by Stoplite.
-     *
-     * @return void
-     */
-    protected function registerHasher()
-    {
-
-    }
-
-    /**
      * Bootstrap the application events.
      *
      * @return void
@@ -109,7 +99,6 @@ class KampusServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'kampus');
 
         $this->publishViewFolder();
-
     }
 
     /**
