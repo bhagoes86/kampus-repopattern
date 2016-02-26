@@ -11,6 +11,10 @@
 			"role" : "Developer"
 		}
 	],
+	"minimum-stability": "stable",
+	"config": {
+		"preferred-install": "dist"
+	},
 	"require" : {
 		"php" : ">=5.5.9",
 		"illuminate/contracts" : "~5.1",
@@ -22,9 +26,5 @@
 		"psr-4" : {
 			"Odenktools\\Kampus\\" : "src/Kampus/"
 		}
-	},
-	"config" : {
-		"preferred-install" : "dist"
-	},
-	"minimum-stability" : "stable"
+	}
 }
